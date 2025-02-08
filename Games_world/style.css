@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho fixo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c1c;
+    color: white;
+    padding: 80px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Logo e navegação */
+.logo {
+    font-size: 60px;
+    font-size: 500;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 60px 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 26px;
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+    padding: 60px 55px;
+    border-radius: 12px;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #1c1c1c;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    text-align: center;
+    margin-top: 120px; /* Dá espaço para o cabeçalho fixo */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Fundo com efeito neon */
+    padding: 300px 60px;
+}
+
+h1 {
+    font-size: 140px;
+    margin-bottom: 20px;
+}
+
+/* Caixa de pesquisa */
+.search-box {
+    text-align: center;
+    padding: 60px 60px;
+    margin: 40px 40px;
+  }
+  
+  .search-box input {
+    padding: 46px;
+    width: 80%;
+    max-width: 900px;
+    height: 0px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .search-box button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 37px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.search-box button:hover {
+    background:#fafafa;
+    font-size: 18px;
+    color: #1c1c1c;
+}
+
+/* Conteúdo principal */
+main {
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    gap: 28px;
+    margin: 26px;
+  }
+  
+  .item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px 20px;
+  }
+  
+  .item h3 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  .item p {
+    font-size: 40px;
+    margin: 16px 10px;
+  }
+  
+  .item a {
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .item a:hover {
+    text-decoration: underline;
+  }
+
+.item img{
+    width: 400px;
+}
+  
+
+/* Estilos gerais do footer */
+.footer-bottom{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Fundo com efeito neon */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 80px 40px;
+    width: 100%;
+}
+  
+.footer-bottom p{
+    font-size: 30px;
+}
+
+
+
